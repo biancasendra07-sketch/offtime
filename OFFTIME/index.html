@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OFFTIME te ayuda a entender tus hábitos digitales y encontrar momentos de calma."
+    />
+    <meta name="theme-color" content="#f4f1f8" />
+    <title>OFFTIME — Pausa consciente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="iphone-frame">
+      <span class="hardware-button volume-up" aria-hidden="true"></span>
+      <span class="hardware-button volume-down" aria-hidden="true"></span>
+      <span class="hardware-button side-button" aria-hidden="true"></span>
+      <main class="app-shell" aria-label="Aplicación OFFTIME">
+        <div class="status-bar" aria-hidden="true">
+          <span>9:41</span>
+          <span class="status-icons">● ◔ ▰</span>
+        </div>
+        <header class="app-header" id="app-header"></header>
+        <section id="screen" class="screen" aria-live="polite"></section>
+        <nav class="bottom-nav" id="bottom-nav" aria-label="Navegación principal"></nav>
+        <div id="toast" class="toast" role="status" aria-live="polite"></div>
+      </main>
+    </div>
+  </body>
+</html>
